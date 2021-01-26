@@ -51,6 +51,7 @@ public class Inventory {
         }
     }
     public void removeStock(int productID, int stockRemove){
+        //This method removes a certain amount of stock from a product
         int i = 0;
         while(products.get(i).getId() != productID && i<products.size()){
             i++;
